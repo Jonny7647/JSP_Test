@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+ <%! 
+ 	// 선언부 : 클래스영역
+ 	// 클래스변수, 인스턴스 변수, 메서드
+	static int num = 5;
+ 	int num2 = 10;
+ 	public int multiply(int a, int b){
+ 		return a * b;
+ 	}
+ %>
+
+
+</body>
+</html>

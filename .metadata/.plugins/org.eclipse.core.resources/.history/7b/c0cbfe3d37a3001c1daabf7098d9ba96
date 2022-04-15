@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"
+    import="java.util.Date"
+    session="true"
+    buffer="8kb"
+    autoFlush="true"
+    %>
+    
+   <%-- JSP 주석, 페이지 소스보기해도 내용물이 안보임 --%>
+    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<%= new Date() %>
+
+
+
+
+</body>
+</html>
